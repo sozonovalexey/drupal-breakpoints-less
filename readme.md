@@ -28,6 +28,20 @@ into this:
 ```less
 @breakpoint-small: ~"all and (max-width: 500px)";
 @breakpoint-medium: ~"all and (max-width: 700px)";
+
+section {
+    margin: 3%;
+    
+    @media @breakpoint-small {
+      width: 37%;
+    }
+
+    @media @breakpoint-small, @breakpoint-medium {
+      width: 40%;
+    }
+
+}
+
 ```
 
 ## Usage
