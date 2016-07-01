@@ -1,0 +1,26 @@
+{
+  "name": "drupal-breakpoints-less",
+  "version": "1.0.0",
+  "description": "Convert Drupal 8:s breakpoints (*.breakpoints.yml) to less @variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sozonovalexey/drupal-breakpoints-less.git"
+  },
+  "author": "Sozonov Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sozonovalexey/drupal-breakpoints-less/issues"
+  },
+  "homepage": "https://github.com/sozonovalexey/drupal-breakpoints-less#readme",
+  "devDependencies": {
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "through2": "^2.0.0",
+    "yamljs": "^0.2.4"
+  }
+}
